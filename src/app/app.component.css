@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Encabezados */
+h1 {
+  font-size: 26px;
+  color: #c60035;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Lista de proyectos */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  display: block;
+  padding: 12px 18px;
+  background-color: #c60035;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+a:hover {
+  background-color: #e4587b;
+  transform: translateY(-3px);
+}
